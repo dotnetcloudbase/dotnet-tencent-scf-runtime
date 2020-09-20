@@ -7,3 +7,5 @@ Serverless functions are increasingly becoming a popular choice for running even
 When using serverless functions, attention must be given to resource utilization as it directly impacts the costs of the system. This is where dotnet(c#) shines! With its low memory footprint, deterministic performance, and quick start time, dotnet/C# is a fantastic match for the serverless functions architecture.
 
 Combine this with dotnet's developer friendliness, expressiveness, and emphasis on safety, and we have a solution that is great for developers at all skill levels, scalable, and cost effective.
+
+Dotnet Tencent SCF Runtime is designed to make building cloud functions in c# simple and safe. The library is an implementation of the [Tencent SCF Custom Runtime API](https://cloud.tencent.com/document/product/583/47274#custom-runtime-.E8.BF.90.E8.A1.8C.E6.97.B6-api) and uses an embedded asynchronous HTTP Client based on  dotnet/httpclient that is fine-tuned for performance in the SCF Custom Runtime context. The library provides a multi-tier API that allows building a range of cloud functions: From quick and simple Closures to complex, performance-sensitive event handlers.
